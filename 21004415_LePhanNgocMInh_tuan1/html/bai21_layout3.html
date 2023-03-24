@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 3</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: auto;
+        }
+        .div1{
+            width: 1098px;
+            height: 380px;
+            border: 1px solid black;
+            background-color: rgb(230, 189, 136);
+            margin-top: 20px;
+        }
+        header{
+            width: 100%;
+            height: 40px;
+            border-bottom: 1px solid black;
+            text-align: center;
+        }
+        #menungang{
+            width: 100%;
+            height: 40px;
+            border-bottom: 1px solid black;
+            text-align: center;
+        }
+        #c1{
+            width: 20%;
+            height: 250px;
+            border-right: 1px solid rgb(0, 0, 0);
+            float: left;       
+        }
+        #s1{
+            width: 30%;
+            height: 250px;
+            border-left: 1px solid black;
+            float: right; 
+        }
+        footer{
+            clear: both;
+            width: 100%;
+            height: 47px;
+            border-top: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <header>header</header>
+        <nav id="menungang">menu</nav>
+        <div class="content">
+            <nav id="c1">nav</nav>
+            <section id="s1">section</section>
+        </div>
+        <footer>footer</footer>
+    </div>
+</body>
+</html>

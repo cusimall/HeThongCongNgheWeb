@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+.divform{
+    width: 710px;
+    height: 700px;
+    background-color: rgb(230, 199, 115);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+h3{
+    text-align: center;
+}
+.div2 label{
+    margin-left: 10px;
+}
+.div2 input {
+    margin-left: 40px;
+}
+.div3 label{
+    margin-left: 10px;
+}
+.div31{
+    margin-left: 40px;
+}
+.div4 label{
+    margin-left: 10px;
+}
+.div41{
+    margin-left: 40px;
+}
+.div5 label{
+    margin-left: 10px;
+}
+.div5 input {
+    margin-left: 40px;
+}
+.div6 label{
+    margin-left: 10px;
+}
+#product1{
+    margin-left: 40px;
+}
+.div7 label{
+    margin-left: 10px;
+}
+.div71{
+    margin-left: 40px;
+}
+.div8 label{
+    margin-left: 10px;
+}
+.div8 textarea{
+    margin-left: 40px;
+}
+.div9{
+    margin-left: 300px;
+}
+.b2{
+    margin-left: 20px;
+}

@@ -1,0 +1,8 @@
+
+#examplel{
+    width: 100%;
+    height: 650px;
+    background-image: url(../image/hinhcho.jpg), url(../image/hinhmeo.jpg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+}

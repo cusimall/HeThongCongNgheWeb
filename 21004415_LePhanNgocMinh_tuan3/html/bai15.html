@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 15</title>
+    <link rel="stylesheet" href="../css/bai15.css">
+</head>
+<body>
+    <form action="">
+        <h2>Contact Us</h2>
+        <fieldset>
+            <legend>Your message:</legend>
+            <table>
+                <tr>
+                    <td><label for="email">To</label></td>
+                    <td><input type="text" name="txtname" id="email" readonly size="20" value="Example Cafe"></td>
+                </tr>
+                <tr>
+                    <td><label for="yourmail">Your email</label></td>
+                    <td><input type="text" name="txtmail" id="yourmail" size="20" maxlength="250" required></td>
+                </tr>
+                <tr>
+                    <td><label for="mess"> Message</label></td>
+                    <td><textarea name="txtmess" id="mess" cols="50" rows="10"></textarea></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>How you found us:</legend>
+            <table>
+                <tr>
+                    <td>How did you hear <br> of us</td>
+                    <td><input list="browsers" placeholder="Google">
+                        <datalist id="browsers">
+                            <option value="Google">
+                            <option value="Firefox">
+                            <option value="Opera">
+                            <option value="Chrome">
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Newsletter</td>
+                    <td><input type="checkbox" checked>Ensure this box is checked if you would like to <br> receive email updates</td>
+                </tr>
+            </table>
+        </fieldset>
+        <input type="button" value="Send message">
+        <br><br><hr><br>
+        <fieldset>
+            <legend>Contact Information</legend>
+                First name:
+                <input type="text" name="txtfirst" size="20"><br>
+                Last name:
+                <input type="text" name="txtlast" size="20"><br>
+                E-mail:
+                <input type="email" name="E-mail" size="20" >
+        </fieldset>
+        <fieldset>
+            <legend>Competition Question</legend>
+            How tall is the Eiffel Tower in paris, France? <br>
+            <input type="radio" name="tower">584 ft <br>
+            <input type="radio" name="tower">784 ft <br>
+            <input type="radio" name="tower">984 ft <br>
+            <input type="radio" name="tower">1184 ft <br>
+        </fieldset>
+        <fieldset>
+            <legend>Tiebreaker Question</legend>
+            In 25 words or less, say why you would like to win $10,000:
+            <textarea name="Question" id="ques" cols="40" rows="10" maxlength="25"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Enter competition</legend>
+            <input type="button" value="Enter Competition">
+        </fieldset>
+    </form>
+</body>
+</html>

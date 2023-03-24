@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 6</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: auto;
+    }
+    .div1{
+        width: 1098px;
+        height: 350px;
+        border: 1px solid black;
+        background-color: rgb(247, 225, 100);
+        margin-top: 20px;
+    }
+    header{
+        width: 100%;
+        height: 40px;
+        border-bottom: 1px solid black;
+        padding: 1px 1px 1px 4px;
+    }
+    nav{
+        width: 100%;
+        height: 20px;
+        border-bottom: 1px solid black;
+        padding: 1px 1px 1px 4px;
+    }
+    aside{
+        width: 30%;
+        height: 250px;
+        float: left;
+        padding: 1px 1px 1px 4px;
+    }
+    section{
+        width: 70%;
+        height: 250px;
+        border-right: 1px solid black;
+        padding: 1px 1px 1px 4px;
+        float: left;
+    }
+    .div3{
+        width: 740px;
+        height: 220px;
+        border: 1px solid black;
+        background-color: antiquewhite;
+    }
+    #c1{
+        width: 100%;
+        height: 110px;
+        border-bottom: 1px solid black;
+        padding: 1px 1px 1px 5px;
+    }
+    #c2{
+        width: 740px;
+        height: 110px;
+        padding: 1px 1px 1px 1px;
+        
+        
+    }
+    footer{
+        clear: both;
+        width: 100%;
+        height: 30px;
+        border-top: 1px solid black;
+        padding: 1px 1px 1px 4px;
+    }
+</style>
+<body>
+    <div class="div1">
+        <header>header</header>
+        <nav>nav</nav>
+        <div class="div2">
+            <section>Section
+                <div class="div3">
+                    <article id="c1">article</article>
+                    <article id="c2">article</article>
+                </div>
+            </section>
+            <aside>aside</aside>
+        </div>
+        <footer>footer</footer>
+    </div>
+</body>
+</html>

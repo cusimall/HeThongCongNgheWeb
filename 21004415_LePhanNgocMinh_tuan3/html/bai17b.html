@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 17b</title>
+    <link rel="stylesheet" href="../css/bai17b.css">
+</head>
+<body>
+    <div class="divform">
+        <form action="">
+            Browser: 
+            <input type="text" name="txtbrowser" id="browser" value="" size="20" maxlength="20" list="browsers"><br><br>
+            <datalist id="browsers">
+                <option value="chrome">
+            </datalist>
+            Username:
+            <input type="text" name="txtname" id="name" size="20" maxlength="20"><br><br>
+            Encryption:
+            <input type="text" name="txtEncryption" id="enc" size="17" maxlength="50" list="en" value="2048 (High Grade)"><br><br>
+            <datalist id="en">
+                <option value="2048 (High Grade)">
+            </datalist>
+            0<input type="range" min="0" max="100" class="slider" id="myRange">100 <br><br>
+            <input type="text" size="20" value="50"><br><br>
+            Birthday:
+            <input type="date" name="txtdate" id="date"><br><br>
+            Select yoủ favỏite color:
+            <input type="color" name="txtcolor" id="color"><br><br>
+            Birthday (month and year):
+            <input type="text" name="monthandyear" id="mandy" value="- - - - - - - - - - -   - - - -" size="18"><br><br>
+            Select a week:
+            <input type="text" name="week" id="week" value="week  - - ,  - - - -"><br><br>
+            Select a time:
+            <input type="text" value="- - : - -  - -" size="10"><br><br>
+            Birthday (date and time):
+            <input type="text" name="txtdat" id="dandt" value="" size="20"><br><br>
+            E-mail:
+            <input type="email" name="txtemail" id="email" value="" required><br><br>
+            Search Google:
+            <input type="text" name="Search" id="SG"><br><br>
+            Telephone:
+            <input type="number" name="telephone" id="phone" value=""><br><br>
+            Add your homepage:
+            <input type="text" name="homepage" id="home" value=""><br><br>
+            <button>Submit</button>
+            <p><b>Note:</b> The datalist tag is not supported in Safari or IE9 (and earlier)</p>
+        </form>
+    </div>
+</body>
+</html>

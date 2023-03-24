@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 17</title>
+    <link rel="stylesheet" href="../css/bai17.css">
+</head>
+<body>
+    <div class="divform">
+        <form action="">
+            <h3>Survey Form</h3>
+            <p>If you are interested in purchasing one or more of our product, before ordering please complete <br>
+            some or all of the following survey for our marketing department. Answering any question is <br>
+            optional, and all information will be kept strictly confidential. Thank you very much for your time!</p> <br>
+            <div class="div2">
+                <label for="name">1.&emsp;What is your name?</label><br>
+                <input type="text" name="txtname" id="name" size="30" maxlength="250">
+            </div>
+            <div class="div3">
+                <label for="birth">2.&emsp;What is your date of birth?</label><br>
+                <div class="div31">
+                    Month: 
+                    <input list="month" size="10" maxlength="250" value="January">
+                    <datalist id="month">
+                    <option value="January">
+                    <option value="February">
+                    </datalist>
+                    Date:
+                    <input list="number" size="2" value="1">
+                    <datalist id="number">
+                    <option value="1">
+                    <option value="2">
+                    </datalist>
+                    Year:
+                    <input type="text" size="5" value="19">
+                </div>
+            </div>
+            <div class="div4">
+                <label for="address">3.&emsp;What is your mailing address(if you would like to have a hard copy of our catalog sent to <br>
+                <div class="div41">
+                    your)?</label><br>
+                    <textarea name="address" id="address" cols="50" rows="4">Number/P.O. Box/Route:
+Street/Avenue/Road:
+City:
+State/Zip:
+                    </textarea>
+                </div>
+            </div>
+            <div class="div5">
+                <label for="eaddress">4.&emsp;What is your email address</label><br>
+                <input type="text" name="ea" id="eaddress" size="20">
+            </div>
+            <div class="div6">
+                <label for="product">5.&emsp;Have is your email address?</label><br>
+                <input type="radio" name="boxpro" id="product1">Yes
+                <input type="radio" name="boxpro" id="product">No
+            </div>
+            <div class="div7">
+                <label for="apply">6.&emsp;If so, what product(s), besides the one you are ordering, might you be interested in purchasing <br>
+                <div class="div71">
+                    in the future? (Check all that apply)</label><br>
+                    <input type="checkbox" name="app" id="apply">VCR <br>
+                    <input type="checkbox" name="app" id="apply">Big Screen TV <br>
+                    <input type="checkbox" name="app" id="apply">Audio Equipment <br>
+                    <input type="checkbox" name="app" id="apply">Video Equipment <br>
+                    <input type="checkbox" name="app" id="apply">Camera Equipment <br>
+                    <input type="checkbox" name="app" id="apply" checked>Other
+                    <input type="text" name="other" id="other" size="30" value="Please List">
+                </div>
+            </div>
+            <div class="div8">
+                <label for="orderform">7.&emsp;Do you have any questions, comments or suggestions before proceeding to the Order Form?</label><br>
+                <textarea name="orderform" id="orderform" cols="50" rows="6"></textarea><br><br>
+            </div>
+            <div class="div9">
+                <button class="b1">Send Form</button>
+                <button class="b2"> Clear Form</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

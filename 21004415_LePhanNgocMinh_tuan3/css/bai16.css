@@ -1,0 +1,9 @@
+form input{
+    border-top: 3px solid rgb(99, 97, 97);
+    border-left: 2px solid rgb(99, 97, 97);
+    border-bottom: 1px solid rgb(161, 159, 159);
+    border-right: 1px solid rgb(161, 159, 159);
+}
+input::placeholder{
+    color: rgb(175, 174, 174);
+}

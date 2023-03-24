@@ -1,0 +1,266 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+#container{
+    display: grid;
+    height: 880px;
+    grid-template-columns: 80px 850px 460px;
+}
+#left{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    border-right: 1px solid rgb(218, 217, 217);
+}
+#left-above{
+    display: grid;
+    height: 450px;
+    justify-items: center;
+}
+#left-bottom{
+    display: grid;
+    justify-items: center;
+}
+#left-above .logo{
+    margin-top: 20px;
+}
+#left-above .cam{
+    width: 55px;
+}
+#left-bottom .setting{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#center{
+    padding: 20px 20px 20px 20px;
+    border-right: 1px solid rgb(218, 217, 217);
+}
+#center-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}#center-wrap button{
+    color: rgb(227,77,115);
+    width: 80px;
+    background-color: #fff;
+    height: 35px;
+    border: 1px solid rgb(227,77,115);
+    border-radius: 25px;
+}
+#center-menu{
+    display: grid;
+    grid-template-columns: 100px 150px auto;
+    justify-items: start;
+    align-items: center;
+}
+#center-menu button{
+    color: #fff;
+    width: 85px;
+    height: 32px;
+    background-color: rgb(227,77,115);
+    border: 1px solid rgb(227,77,115);
+    border-radius: 25px;
+    font-size: 14px;
+}
+#center-menu .menu-ele{
+    width: 135px;
+    border-right: 1px solid rgb(218, 217, 217);
+}
+#screen{
+    margin-top: 30px;
+}
+#screen img{
+    border-radius: 8px;
+}
+.screen-ele{
+    display: flex;
+    padding-left: 20px;
+    margin-top: -435px;
+}
+.screen-ele button{
+    height: 36px;
+    color: #fff;
+    position: absolute;
+    background-color: rgb(122, 123, 126);
+    border: 1px solid rgb(122, 123, 126);
+    border-radius: 3px;
+}
+.screen-ele img{
+    position: absolute;
+    margin-left: 730px;
+}
+.screen-ele i{
+    font-size: 8px;
+    color: rgb(50, 211, 50);
+}
+#screen2{
+    display: grid;
+    grid-template-columns: 273px 274px auto;
+    margin-top: 450px;
+}
+#screen2 .img{
+    border-radius: 8px;
+}
+#screen2-ele{
+    display: grid;
+    padding-left: 10px;
+    grid-template-columns: 273px 274px 270px;
+    margin-top: -155px;
+}
+#screen2-ele .screen2-ele1{
+    display: flex;
+    padding-right: 55px;
+    justify-content: space-between;
+}
+#screen2-ele .screen2-ele1 img{
+    position: absolute;
+}
+#screen2-ele .screen2-ele1 #button{
+    color: #fff;
+    position: absolute;
+    background-color: rgba(68, 68, 68, 0.4);
+    border: 1px solid rgba(189, 190, 194, 0.5);
+    height: 26px;
+    border-radius: 3px;
+    position: absolute;
+}
+#screen2-ele .screen2-ele1 #button i{
+    font-size: 8px;
+    color: rgb(50, 211, 50);
+}
+#center-menu2{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    width: 450px;
+    padding-left: 170px;
+    
+}
+#center-menu2 button{
+    color: #fff;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 120px;
+    height: 44px;
+}
+#right-container{
+    padding: 20px;
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: 335px auto;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(218, 217, 217);
+}
+#right-above div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#right-above div p{
+    padding-left: 10px;
+}
+#right-above div button{
+    border: 0px;
+    height: 25px;
+    border-radius: 50%;
+    color: rgb(227,77,115);
+    background-color: rgb(250, 233, 236);
+    margin-left: 5px
+}
+#right-above2{
+    margin-top: 15px;
+    display: grid;
+    grid-template-rows: 50px auto auto auto auto;
+}
+#right-above2 button{
+    color: rgb(227,77,115);
+    width: 70px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid rgb(227,77,115);
+}
+#right-above2 .ele{
+    margin-top: 20px;
+}
+#right-chat{
+    padding: 20px;
+    padding-left: 30px;
+    border-top: 1px solid rgb(218, 217, 217);
+}
+#chat-container{
+    display: grid;
+    grid-template-columns: 55px auto;
+}
+#chat-container #chat-avata{
+    display: grid;
+    grid-template-rows: 120px 120px 110px auto;
+    margin-top: 15px;
+    position: static;
+    z-index: 10;
+}
+#chat-nd{
+    padding-top: 5px;
+    display: grid;
+    grid-template-rows: 50px 70px 50px 70px 50px 60px auto;
+}
+.chat-name{
+    display: flex;
+    align-items: center;
+}
+.chat-name p{
+    font-size: 12px;
+    padding-left: 10px;
+}
+#chat-nd .chat-comment{
+    width: 340px;
+    height: 50px;
+    background-color: rgb(248,249,250);
+    padding-top: 15px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+#chat-nd .chat-comment2{
+    background-color: rgb(253,242,244);
+    width: 95px;
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#chat-nd .chat-comment3{
+    margin-top: 400px;
+    background-color: rgb(250, 252, 253);
+    width: 70px;
+    height: 30px;
+    padding-top: 15px;
+    padding-left: 10px;
+    color: #646262;
+    position: absolute;
+    border-radius: 5px;
+    z-index: 10;
+}
+#chat-container input{
+    background-color: rgb(248,249,250);
+    border: 1px solid rgb(248,249,250);
+    margin-top: -16px;
+    width: 320px;
+    height: 35px;
+    z-index: 0;
+}
+#chat-container i{
+    position: absolute;
+    z-index: 11;
+    top: 820px;
+    left: 1255px;
+}
+#chat-container .send{
+    position: absolute;
+    z-index: 11;
+    top: 805px;
+    left: 1310px;
+}

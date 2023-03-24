@@ -1,0 +1,60 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#grunge{
+    font-size: 25px;
+    background-color: black;
+    background-image: url(../image/aaaaa.jpg);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color: #ffffff;
+}
+.div1{
+    border: 1px solid black; 
+    width: 580px; 
+    height: 90px; 
+    background-color: white; 
+    padding-top: 10px;
+}
+#colorful{
+    margin-left: 20px; 
+    text-shadow: -3px -3px 2px #df4c33; 
+    font-size: 25px;
+}
+#insert{
+    margin-left: 20px; 
+    background-color: rgb(209, 185, 231); 
+    color: rgb(167, 0, 189); 
+    font-size: 25px;
+}
+#double{
+    margin-left: 40px; 
+    text-shadow: 0px -12px 1px #ff28ac; 
+    font-size: 25px;
+}
+#glossy{
+    margin:100px 0px 10px 80px; 
+    background: linear-gradient(to top, #eeac1d, #ffffff); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    font-size: 25px;
+}
+#neon{
+    margin-left: 200px; 
+    font-size: 25px; 
+    background-color: rgb(18, 1, 49); 
+    color: blue;
+    text-shadow: 0 0 15px rgba(209, 244, 255, 0.5), 0 0 10px rgba(111, 213, 231, 0.5);
+}
+.bgrunge{
+    background-color: black; 
+    width: 160px; 
+    margin: -40px 0px 10px 250px;
+}
+.title{
+    background-color: #941294; 
+    width: 582px; 
+    margin-top: -19px; 
+    color: #ffffff; 
+    text-align: center;
+}
